@@ -1,0 +1,40 @@
+PROCEDURE  inst_sort(var tab : ARRAY_OF INTEGER[10]) ; INTEGER
+VAR
+    i , j : INTEGER ;
+
+BEGIN
+   j := 0 ;
+   WHILE (i < tab.length) DO
+       IF (tab[i] , tab[j]) THEN
+       for (j = 0 ; i = 0 ;)
+ FOR i FROM 0 TO n-1 STEP step1 DO key =tab[i]; j =i-1;
+    WHILE (j<=0 ; tab[j]> key) AND tab[j + 1] =tab[j];j =j-1;
+    END WHILE (tab[j + 1] = key;)
+    END_FOR
+
+END
+
+
+
+
+ALGORITHM insert_sort(ARRAY_OF INTEGER[10])
+VAR
+     var tab : ARRAY_OF INTEGER[10];
+     i : INTEGER ;
+     j := 0 ;
+BEGIN
+
+     FOR i FROM 0 TO tab.length-1 STEP step 1 DO
+       IF(j<= 0) THEN
+       Read (tab[i]);
+    END_FOR
+
+    insert_sort(tab[i] ; tab[j])
+    FOR i FROM 0 TO tab.length-1 STEP step 1 DO
+       write("array sorted:tab[i]");
+       ELSE
+       END_IF
+END 
+
+
+
