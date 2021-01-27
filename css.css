@@ -1,16 +1,21 @@
-title{
-  font-display: times news roman;
-  align-items:center;
-  margin:auto;
-  border-color: brown;
+nav {
+    border-bottom: 1px solid black;
+}
 
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
 }
-element.style {
-  /* -webkit-user-select: none; */
-  margin: auto;
-  cursor: zoom-in;
+
+.crumb {
+    display: inline-block;
 }
-img[Attributes Style] {
-  width: 383px;
-  height: 657px;
+
+.crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
 }
