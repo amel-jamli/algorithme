@@ -1,0 +1,16 @@
+title{
+  font-display: times news roman;
+  align-items:center;
+  margin:auto;
+  border-color: brown;
+
+}
+element.style {
+  /* -webkit-user-select: none; */
+  margin: auto;
+  cursor: zoom-in;
+}
+img[Attributes Style] {
+  width: 383px;
+  height: 657px;
+}
